@@ -6,7 +6,7 @@ nav {
   background-color: var(--black);
 }
 
-nav ul {  
+nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -16,7 +16,6 @@ nav ul li {
   display: inline-block;
 }
 
-
 nav ul li a {
   display: block;
   padding: 1em;
@@ -25,7 +24,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color:var(--gray1);
+  background-color: var(--gray1);
 }
 
 .main {
@@ -39,14 +38,13 @@ body {
 }
 
 @media (max-width: 414px) {
-  nav ul li{
+  nav ul li {
     width: 100%;
   }
 
   .main {
     margin-top: 220px;
   }
-  
 }
 
 @media (min-width: 415px) and (max-width: 1024px) {
